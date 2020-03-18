@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+                <p class="article-content"><b>{{ posts[0] }}</b> {{ t[0] }} </p>
+              <p class="article-content"><b>{{ posts[1] }}</b>{{ t[1]}}</p>
+
+            <p class="article-content"><b>{{ posts[2] }}</b>{{ t[4] }}</p>
+            <p class="article-content"><b>{{ posts[3] }}</b>{{ t[5] }}</p>
+              <p class="article-content"><b>{{ posts[4] }}</b>{{ t[6] }}</p>
+         </div>
+        </article>
+	<article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+                <p class="article-content"><b>{{ posts[0] }}</b> {{ t1[1] }} </p>
+              <p class="article-content"><b>{{ posts[1] }}</b></p>
+
+            <p class="article-content"><b>{{ posts[2] }}</b>{{ t1[3] }}</p>
+            <p class="article-content"><b>{{ posts[3] }}</b>{{ t1[2] }}</p>
+              <p class="article-content"><b>{{ posts[4] }}</b>{{ t1[5] }}</p>
+         </div>
+        </article>
+{% endblock content %}
